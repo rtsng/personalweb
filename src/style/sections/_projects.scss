@@ -120,7 +120,7 @@
     border-left: 6px $dark-grey;
   }
   @include respond(tab-land) {
-    border-left: 6px $dark-grey;
+    border-left: 0px $dark-grey;
   }
 }
 .rev{

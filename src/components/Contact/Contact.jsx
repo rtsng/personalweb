@@ -39,7 +39,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="cta-btn cta-btn--resume"
                 // href={email ? `mailto:${email}` : 'ryan.j.tsang@gmail.com'}
-                href="./404"
+                href= "https://rtsng.github.io/tetryan/"
               >
                 {btn || "other websites!"}
               </a>
