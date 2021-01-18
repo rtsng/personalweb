@@ -59,6 +59,17 @@ const Projects = () => {
                       
                     </p>
                     <img src= {rev} className = "rev"/>
+                    <div className="gap10"></div>
+                    <div className="smallbutt">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cta-btn cta-btn--hero"
+                        href={url || 'https://github.com/rtsng/defhacks_2020'}
+                      >
+                        git
+                      </a>
+                    </div>
                   </Col>
                   <Col md = "auto"><div className="border"></div></Col>
                   <Col>
@@ -77,25 +88,7 @@ const Projects = () => {
                     </p>
                     <img src= {micro} className = "micro"/>
                     <img src= {heat} className = "heat"/>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col>
                     <div className="gap10"></div>
-                    <div className="smallbutt">
-                      <a
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
-                        href={url || 'https://github.com/rtsng/defhacks_2020'}
-                      >
-                        git
-                      </a>
-                    </div>
-                  </Col>
-                  <Col md = "auto"><div className="border"></div></Col>
-                  <Col>
-                  <div className="gap10"></div>
                     <div className="smallbutt">
                       <a
                         target="_blank"
@@ -108,42 +101,71 @@ const Projects = () => {
                     </div>
                   </Col>
                 </Row>
+                {/* <Row>
+                  <Col>
+                    
+                  </Col>
+                  <Col md = "auto"><div className="border"></div></Col>
+                  <Col>
+                  
+                  </Col>
+                </Row> */}
                 <div className="gap"></div>
                 <Row>
                   <Col>
                     <div className="projtitle">
-                      Sample title
+                      tetryan
                     </div>
-                    pic here
                     <p>
-                      This is some random text
+                      Tetryan is just tetris, but calling it that would result
+                      in copyright, so I changed its name. Tetryan is a javascript
+                      based genetic algorithm which will evolve over time to play 
+                      tetris. 
+                    </p>
+                    <p>
+                      The algoirthm checks values like the number of "holes" or things
+                      like relative board height, and optimizes it self by reporoducing 
+                      with previous generations of itself
                     </p>
                     <div className="smallbutt">
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
+                        href={url || 'https://github.com/rtsng/tetryan/tree/main/tetrai'}
                       >
                         git
                       </a>
                     </div>
+                    <div className="sidesmallbutt">
+                      <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="cta-btn cta-btn--hero"
+                        href={url || 'https://rtsng.github.io/tetryan/tetrai/index.html'}
+                      >
+                        web
+                      </a>
+                    </div>
+                    
                   </Col>
                   <Col md = "auto"><div className="border"></div></Col>
                   <Col>
                     <div className="projtitle">
-                      Sample title
+                      Memorizing App
                     </div>
-                    pic here
+                    
                     <p>
-                      This is some random text
+                      A phone application developped in swift which takes a
+                      chunk of text and breaks it down into smaller portions
+                      which are easier to read and thus easier to memorize.
                     </p>
                     <div className="smallbutt">
                       <a
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
+                        href={url || 'https://github.com/rtsng/memorizingApplication'}
                       >
                         git
                       </a>

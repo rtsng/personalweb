@@ -105,7 +105,15 @@
 }
 .smallbutt {
   font-size: 1em;
-  display: block;
+  display: inline-block;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+.sidesmallbutt{
+  font-size: 1em;
+  margin-left: 1em;
+  display: inline-block;
   position: relative;
   bottom: 0;
   left: 0;
@@ -117,7 +125,7 @@
   border-left: 6px $off-white;
   height: 100%;
   @include respond(phone) {
-    border-left: 6px $dark-grey;
+    border-left: 0px $dark-grey;
   }
   @include respond(tab-land) {
     border-left: 0px $dark-grey;
