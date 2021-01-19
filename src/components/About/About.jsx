@@ -6,7 +6,7 @@ import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
 
 var me = require('./placeholder.png')
-var myres = require('./resume2.pdf')
+var myres = require('./ryan tsang resume 2021.pdf')
 const About = () => {
   const { about } = useContext(PortfolioContext);
   const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
