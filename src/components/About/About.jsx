@@ -6,7 +6,7 @@ import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
 
 var me = require('./placeholder.png')
-var myres = require('./ryan tsang resume 2021.pdf')
+var myres = require('./resume final 2021.pdf')
 const About = () => {
   const { about } = useContext(PortfolioContext);
   const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
@@ -47,7 +47,7 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    "When I'm not coding, I enjoy running, cooking, playing music, and modern tetris."}
+                    "When I'm not coding, I enjoy running, cooking, playing music, and modern tetris. Want to play me in tetris? add me on discord riaN#4742 and play me here."}
                 </p>
                 {/* <p className="about-wrapper__info-text">
                   {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
